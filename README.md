@@ -9,7 +9,7 @@ This project is a React application that allows users to view an infinite scroll
 - To run the project locally, follow these steps:
 - Clone the repository
 - Install dependencies using `npm install`
-- Obtain a Giphy API key and replace the placeholder in the code with your actual API key
+- Obtain a Giphy API key and replace the placeholder in the code with your actual API key (no need in this case since I already provide env key)
 - Run the application using `npm start`
 
 # Features
