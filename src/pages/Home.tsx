@@ -18,6 +18,7 @@ const Home = () => {
 
   const onSearch = (paramInput: string) => {
     if (!paramInput && apiType === "trending") return;
+    if (paramInput === searchKeyword && apiType === "search") return;
 
     setCurrentPage(1);
     setGiphyRes(null);

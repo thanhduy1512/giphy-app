@@ -11,8 +11,6 @@ interface IGifsContainerProps {
 }
 
 const GifsContainer = ({ giphyRes, setCurrentPage }: IGifsContainerProps) => {
-  console.log(giphyRes);
-
   return (
     <InfiniteScroll
       className="py-[10px] px-[80px]"
